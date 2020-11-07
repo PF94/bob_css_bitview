@@ -5,47 +5,57 @@
     background: transparent url(https://raw.githubusercontent.com/flickPF94/bob_css_bitview/main/master-vfl42001.png) no-repeat scroll 0 -137px;
     margin-right: 5px
 }
+
 #masthead .nav-item .content {
     color: #920aa6;
 }
+
 .contentBox,
 #watch-channel-vids-div {
     background: linear-gradient(75deg, rgb(50, 14, 62), rgb(108, 42, 128));
     border: 1px solid #ccc;
     color: #fff
 }
+
 #watch-embed-div label,
 #watch-url-div label,
 .watch-channel-stat {
     color: #dca9ff;
 }
+
 #searchField {
     width: 350px;
     color: #a629aa;
     font-size: 12px
 }
+
 #masthead .nav-item .rightcap {
     background: transparent url(https://raw.githubusercontent.com/flickPF94/bob_css_bitview/main/master-vfl42001.png) no-repeat scroll -157px 0
 }
+
 #masthead .nav-item .leftcap {
     background: transparent url(https://raw.githubusercontent.com/flickPF94/bob_css_bitview/main/master-vfl42001.png) no-repeat scroll -152px 0
 }
+
 #smallMastheadLogo {
     content: url(https://i.imgur.com/RpsPB5k.gif);
     width: 104px;
     height: 37px;
     border: 0;
 }
+
 #masthead .logo {
     content: url(https://raw.githubusercontent.com/flickPF94/bob_css_bitview/main/CvVcoKo.png);
     float: left;
     display: block;
     margin: 1px 1px 6px 0;
 }
+
 .headerTitle {
     font-size: 15px;
     color: #fff;
 }
+
 .contentBox a:active,
 .contentBox a:link,
 .contentBox a:visited,
@@ -54,24 +64,33 @@
 #watch-channel-vids-div a:active {
     color: #ba22ff;
 }
+
 a:active,
 a:link,
 a:visited {
     color: #2e1ea2;
 }
+
 #watch-embed-div,
 #watch-video-details-inner,
 #watch-url-div {
     border-top: 1px solid #5e5e5e;
 }
+
 #watch-video-response {
     background: linear-gradient(75deg, rgb(255, 231, 153), rgb(255, 210, 94));
     border: 1px solid #ffb433;
 }
+
 .vlPlayer2009.tealBt .vlBuffer {
     background-color: #a8b
 }
+
 .vlPlayer2009.tealBt .vlPosition {
     background-color: #b3f
+}
+
+form {
+    margin: 0px 0px 0px -40px;
 }
 }
