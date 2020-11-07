@@ -1,2 +1,8 @@
 @-moz-document domain("www.bitview.net") {
+   #masthead .nav-item {
+   display:block;
+   float:left;
+   background:transparent url(https://raw.githubusercontent.com/flickPF94/bob_css_bitview/main/master-vfl42001.png) no-repeat scroll 0 -137px;
+   margin-right:5px
+  }
 }
