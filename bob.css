@@ -21,4 +21,10 @@
    color:#a629aa;
    font-size:12px
    }
+   #masthead .nav-item .rightcap {
+   background:transparent url(https://raw.githubusercontent.com/flickPF94/bob_css_bitview/main/master-vfl42001.png) no-repeat scroll -157px 0
+   }
+   #masthead .nav-item .leftcap {
+   background:transparent url(https://raw.githubusercontent.com/flickPF94/bob_css_bitview/main/master-vfl42001.png) no-repeat scroll -152px 0
+   }
 }
