@@ -64,4 +64,14 @@ a:visited {
 #watch-url-div {
     border-top: 1px solid #5e5e5e;
 }
+#watch-video-response {
+    background: linear-gradient(75deg, rgb(255, 231, 153), rgb(255, 210, 94));
+    border: 1px solid #ffb433;
+}
+.vlPlayer2009.tealBt .vlBuffer {
+    background-color: #a8b
+}
+.vlPlayer2009.tealBt .vlPosition {
+    background-color: #b3f
+}
 }
