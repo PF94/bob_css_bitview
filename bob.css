@@ -9,7 +9,7 @@
    color:#920aa6;
    }
    #watch-channel-vids-div {
-   background:linear-gradient(to right, rgb(216, 98, 255), rgb(122, 23, 151));
+   background:linear-gradient(135deg, rgb(216, 98, 255), rgb(122, 23, 151));
    border:1px solid #ccc;
    color: #fff
    }
@@ -27,4 +27,16 @@
    #masthead .nav-item .leftcap {
    background:transparent url(https://raw.githubusercontent.com/flickPF94/bob_css_bitview/main/master-vfl42001.png) no-repeat scroll -152px 0
    }
+   #smallMastheadLogo {
+    content: url(https://i.imgur.com/RpsPB5k.gif) ;
+    width: 104px;
+    height: 37px;
+    border: 0;
+   }
+    #masthead .logo {
+     content: url(https://i.imgur.com/CvVcoKo.png) ;
+    float: left;
+    display: block;
+    margin: 1px 1px 6px 0;
+    }
 }
