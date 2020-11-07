@@ -90,7 +90,14 @@ a:visited {
     background-color: #b3f
 }
 
-form {
+#masthead form {
     margin: 0px 0px 0px -40px;
+}
+}
+
+@-moz-document regexp("https://www.bitview.net/groups.php") {
+#browseMain .vimg120 {
+    width: 100px !important;
+    height: 100px !important;
 }
 }
