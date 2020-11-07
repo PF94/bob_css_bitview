@@ -16,4 +16,9 @@
    .watch-channel-stat {
    color:#63288c;
    }
+   #searchField {
+   width:350px;
+   color:#a629aa;
+   font-size:12px
+   }
 }
