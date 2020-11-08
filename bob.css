@@ -92,47 +92,47 @@ a:visited {
 }
 
 .vlPlayer2009.tealBt:not(.whiteBg) .vlBuffer {
- background-color:#4c1466
+    background-color: #4c1466
 }
 .vlPlayer2009.tealBt .vlcPlay:hover > s > i,
 .vlPlayer2009.tealBt .vlcPlay.active > s > i {
- background-position: -2px -201px;
+    background-position: -2px -201px;
 }
 .vlPlayer2009.tealBt.playing .vlcPlay:hover > s > i,
 .vlPlayer2009.tealBt.playing .vlcPlay.active > s > i {
- background-position: -32px -201px;
+    background-position: -32px -201px;
 }
 .vlPlayer2009.tealBt .vlSeeker > i {
- background-position: -67px -205px;
+    background-position: -67px -205px;
 }
 .vlPlayer2009.tealBt .vlcMute:hover > s > i,
 .vlPlayer2009.tealBt .vlcMute.active > s > i {
- background-position: -92px -201px;
+    background-position: -92px -201px;
 }
 .vlPlayer2009.tealBt.muted .vlcMute > s > i {
- background-position: -122px -201px;
+    background-position: -122px -201px;
 }
 .vlPlayer2009.tealBt .vlcFullScreen.hover > s > i,
 .vlPlayer2009.tealBt .vlcFullScreen.active > s > i {
- background-position: -242px -201px;
+    background-position: -242px -201px;
 }
 .vlPlayer2009.tealBt.full .vlcFullScreen.hover > s > i,
 .vlPlayer2009.tealBt.full .vlcFullScreen.active > s > i {
- background-position: -152px -201px;
+    background-position: -152px -201px;
 }
 .vlPlayer2009.tealBt .vlcExpand:hover > s > i,
 .vlPlayer2009.tealBt .vlcExpand.active > s > i {
- background-position: -182px -201px;
+    background-position: -182px -201px;
 }
 .vlPlayer2009.tealBt.expanded .vlcExpand:hover > s > i,
 .vlPlayer2009.tealBt.expanded .vlcExpand.active > s > i {
- background-position: -212px -201px;
+    background-position: -212px -201px;
 }
 .vlPlayer2009.tealBt .vlEndScreenBtn i {
- background-position: -350px -350px;
+    background-position: -350px -350px;
 }
 .vlPlayer2009.tealBt .vlEndScreenRight .vlEndScreenBtn i {
- background-position: -350px -400px;
+    background-position: -350px -400px;
 }
 
 #masthead form {
@@ -218,7 +218,7 @@ html > body .browseListView .vlentry {
 }
 
 body {
-    background-image: url(http://web-old.archive.org/web/20120514212820im_/http://s.ytimg.com/yt/imgbin/www-refreshbg-vflC3wnbM.png);
+    background-image: url(https://raw.githubusercontent.com/flickPF94/bob_css_bitview/main/www-refreshbg-vflC3wnbM.png);
 }
 }
 
