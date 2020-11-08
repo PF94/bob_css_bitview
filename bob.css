@@ -92,47 +92,47 @@ a:visited {
 }
 
 .vlPlayer2009.tealBt:not(.whiteBg) .vlBuffer {
-    background-color: #4c1466
+ background-color:#4c1466
 }
 .vlPlayer2009.tealBt .vlcPlay:hover > s > i,
 .vlPlayer2009.tealBt .vlcPlay.active > s > i {
-    background-position: -2px -201px;
+ background-position: -2px -201px;
 }
 .vlPlayer2009.tealBt.playing .vlcPlay:hover > s > i,
 .vlPlayer2009.tealBt.playing .vlcPlay.active > s > i {
-    background-position: -32px -201px;
+ background-position: -32px -201px;
 }
 .vlPlayer2009.tealBt .vlSeeker > i {
-    background-position: -67px -205px;
+ background-position: -67px -205px;
 }
 .vlPlayer2009.tealBt .vlcMute:hover > s > i,
 .vlPlayer2009.tealBt .vlcMute.active > s > i {
-    background-position: -92px -201px;
+ background-position: -92px -201px;
 }
 .vlPlayer2009.tealBt.muted .vlcMute > s > i {
-    background-position: -122px -201px;
+ background-position: -122px -201px;
 }
 .vlPlayer2009.tealBt .vlcFullScreen.hover > s > i,
 .vlPlayer2009.tealBt .vlcFullScreen.active > s > i {
-    background-position: -242px -201px;
+ background-position: -242px -201px;
 }
 .vlPlayer2009.tealBt.full .vlcFullScreen.hover > s > i,
 .vlPlayer2009.tealBt.full .vlcFullScreen.active > s > i {
-    background-position: -152px -201px;
+ background-position: -152px -201px;
 }
 .vlPlayer2009.tealBt .vlcExpand:hover > s > i,
 .vlPlayer2009.tealBt .vlcExpand.active > s > i {
-    background-position: -182px -201px;
+ background-position: -182px -201px;
 }
 .vlPlayer2009.tealBt.expanded .vlcExpand:hover > s > i,
 .vlPlayer2009.tealBt.expanded .vlcExpand.active > s > i {
-    background-position: -212px -201px;
+ background-position: -212px -201px;
 }
 .vlPlayer2009.tealBt .vlEndScreenBtn i {
-    background-position: -350px -350px;
+ background-position: -350px -350px;
 }
 .vlPlayer2009.tealBt .vlEndScreenRight .vlEndScreenBtn i {
-    background-position: -350px -400px;
+ background-position: -350px -400px;
 }
 
 #masthead form {
@@ -206,7 +206,7 @@ html > body .browseListView .vlentry {
 }
 }
 
-@-moz-document regexp("(http(s)://)www.bitview.net/(?!profile).*") {
+@-moz-document regexp(".*www.bitview.net/(?!profile).*") {
 /* BobView Background Box, Shouldn't display on profiles. */
 #baseDiv {
     border: 1px solid #ccc;
@@ -218,11 +218,11 @@ html > body .browseListView .vlentry {
 }
 
 body {
-    background-image: url(https://raw.githubusercontent.com/flickPF94/bob_css_bitview/main/www-refreshbg-vflC3wnbM.png);
+    background-image: url(http://web-old.archive.org/web/20120514212820im_/http://s.ytimg.com/yt/imgbin/www-refreshbg-vflC3wnbM.png);
 }
 }
 
-@-moz-document regexp("(http(s)://)www.bitview.net/") {
+@-moz-document regexp(".*www.bitview.net/") {
 /* BobView Broken Piece of Shit That Doesn't Fucking Work */
 #homepage-main-content tbody {
     background: linear-gradient(75deg, rgb(50, 14, 62), rgb(108, 42, 128));
@@ -230,7 +230,7 @@ body {
 }
 }
 
-@-moz-document regexp("(http(s)://)www.bitview.net/whats_new.php"), regexp("(http(s)://)www.bitview.net/terms.php"), regexp("(http(s)://)www.bitview.net/privacy.php"), regexp("(http(s)://)www.bitview.net/help.php"), regexp("(http(s)://)www.bitview.net/viewing_history.php"), regexp("(http(s)://)www.bitview.net/about.php"), regexp("(http(s)://)www.bitview.net/my_.*"), regexp("(http(s)://)www.bitview.net/watch.*") {
+@-moz-document regexp(".*www.bitview.net/whats_new.php"), regexp(".*www.bitview.net/terms.php"), regexp(".*www.bitview.net/privacy.php"), regexp(".*www.bitview.net/help.php"), regexp(".*www.bitview.net/viewing_history.php"), regexp(".*www.bitview.net/about.php"), regexp(".*www.bitview.net/my_.*"), regexp(".*www.bitview.net/watch.*") {
 /* BobView Background Box-inside-Background Box */
 #watch-this-vid,
 #watch-other-vids,
@@ -241,7 +241,7 @@ body {
 }
 }
 
-@-moz-document regexp("(http(s)://)www.bitview.net/groups.*"), regexp("bitview.net/groups.*") {
+@-moz-document regexp(".*www.bitview.net/groups.*"), regexp("bitview.net/groups.*") {
 /* BobView Group Display Picture Fix */
 #browseMain .vimg120 {
     width: 100px !important;
@@ -260,7 +260,7 @@ body {
 }
 }
 
-@-moz-document regexp("(http(s)://)www.bitview.net/videos.php") {
+@-moz-document regexp(".*www.bitview.net/videos.php") {
 /* BobView Video Thumbnail "Fix" */
 .vimg120 {
     width: 120px;
@@ -268,7 +268,7 @@ body {
 }
 }
 
-@-moz-document regexp("(http(s)://)www.bitview.net/watch.*") {
+@-moz-document regexp(".*www.bitview.net/watch.*") {
 /* BobView Video Page Link "Fix" */
 .eLink {
     border-bottom: 1px dotted #eef2ff;
