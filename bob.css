@@ -161,6 +161,14 @@ html > body .browseListView .vlentry {
 }
 }
 
+@-moz-document regexp("(http(s)://)www.bitview.net/(?!profile).*") {
+#baseDiv {
+    border: 1px solid #ccc;
+    padding: 4px;
+    background: linear-gradient(rgb(255, 255, 255), rgb(240, 240, 240));
+}
+}
+
 @-moz-document regexp("(http(s)://)www.bitview.net/") {
 #homepage-main-content tbody {
     background: linear-gradient(75deg, rgb(50, 14, 62), rgb(108, 42, 128));
