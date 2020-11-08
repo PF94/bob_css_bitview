@@ -1,4 +1,5 @@
 @-moz-document domain("www.bitview.net") {
+/* BobView Main CSS */
 #masthead .nav-item {
     display: block;
     float: left;
@@ -162,6 +163,7 @@ html > body .browseListView .vlentry {
 }
 
 @-moz-document regexp("(http(s)://)www.bitview.net/(?!profile).*") {
+/* BobView Background Box, Shouldn't display on profiles. */
 #baseDiv {
     border: 1px solid #ccc;
     padding: 4px;
@@ -170,6 +172,7 @@ html > body .browseListView .vlentry {
 }
 
 @-moz-document regexp("(http(s)://)www.bitview.net/") {
+/* BobView Broken Piece of Shit That Doesn't Fucking Work */
 #homepage-main-content tbody {
     background: linear-gradient(75deg, rgb(50, 14, 62), rgb(108, 42, 128));
     color: #ba22ff !important;
@@ -177,6 +180,7 @@ html > body .browseListView .vlentry {
 }
 
 @-moz-document regexp("(http(s)://)www.bitview.net/whats_new.php"), regexp("(http(s)://)www.bitview.net/terms.php"), regexp("(http(s)://)www.bitview.net/privacy.php"), regexp("(http(s)://)www.bitview.net/help.php"), regexp("(http(s)://)www.bitview.net/viewing_history.php"), regexp("(http(s)://)www.bitview.net/about.php"), regexp("(http(s)://)www.bitview.net/my_.*"), regexp("(http(s)://)www.bitview.net/watch.*") {
+/* BobView Background Box-inside-Background Box */
 #watch-this-vid,
 #watch-other-vids,
 .wrapper {
@@ -187,6 +191,7 @@ html > body .browseListView .vlentry {
 }
 
 @-moz-document regexp("(http(s)://)www.bitview.net/groups.*"), regexp("bitview.net/groups.*") {
+/* BobView Group Display Picture Fix */
 #browseMain .vimg120 {
     width: 100px !important;
     height: 100px !important;
@@ -205,6 +210,7 @@ html > body .browseListView .vlentry {
 }
 
 @-moz-document regexp("(http(s)://)www.bitview.net/videos.php") {
+/* BobView Video Thumbnail "Fix" */
 .vimg120 {
     width: 120px;
     height: 83px;
