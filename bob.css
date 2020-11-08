@@ -93,11 +93,48 @@ a:visited {
 #masthead form {
     margin: 0px 0px 0px -40px;
 }
+
+.user-thumb-xlarge img {
+    height: 88px!important;
+    width: 88px!important;
+    margin-left: 0px;
+}
+.user-thumb-large img {
+    height: 60px!important;
+    width: 60px !important;
+    margin-left: 0px;
+}
 }
 
-@-moz-document regexp("https://www.bitview.net/groups.php") {
+@-moz-document regexp("(http(s)://)www.bitview.net/whats_new.php"), regexp("(http(s)://)www.bitview.net/terms.php"), regexp("(http(s)://)www.bitview.net/privacy.php"), regexp("(http(s)://)www.bitview.net/help.php"), regexp("(http(s)://)www.bitview.net/viewing_history.php"), regexp("(http(s)://)www.bitview.net/about.php") {
+.wrapper {
+    border: 1px solid #ccc;
+    padding: 4px;
+    background: linear-gradient(rgb(255, 255, 255), rgb(240, 240, 240));
+}
+}
+
+@-moz-document regexp("(http(s)://)www.bitview.net/groups.*") {
 #browseMain .vimg120 {
     width: 100px !important;
     height: 100px !important;
+}
+
+.vEntry {
+    background: linear-gradient(rgb(255, 255, 255), rgb(242, 242, 242));
+    border: 1px solid #ccc;
+    padding: 0px 0;
+    border-bottom: 0px dotted #999;
+}
+
+.pagerNotCurrent {
+    font-size: 12px
+}
+}
+
+@-moz-document regexp("(http(s)://)www.bitview.net/videos.php") {
+.vimg120 {
+    width: 120px;
+    height: 83px;
 }
 }
