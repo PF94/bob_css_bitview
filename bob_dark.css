@@ -1,0 +1,277 @@
+@-moz-document domain("www.bitview.net") {
+/* BobView Main CSS */
+#masthead .nav-item {
+    display: block;
+    float: left;
+    background: transparent url(https://raw.githubusercontent.com/flickPF94/bob_css_bitview/main/master-vfl42001.png) no-repeat scroll 0 -137px;
+    margin-right: 5px
+}
+
+#masthead .nav-item .content {
+    color: #920aa6;
+}
+
+.contentBox,
+#watch-channel-vids-div {
+    background: linear-gradient(75deg, rgb(50, 14, 62), rgb(108, 42, 128));
+    border: 1px solid #ccc;
+    color: #fff
+}
+
+#watch-embed-div label,
+#watch-url-div label,
+.watch-channel-stat {
+    color: #dca9ff;
+}
+
+#searchField {
+    width: 350px;
+    color: #a629aa;
+    font-size: 12px
+}
+
+#masthead .nav-item .rightcap {
+    background: transparent url(https://raw.githubusercontent.com/flickPF94/bob_css_bitview/main/master-vfl42001.png) no-repeat scroll -157px 0
+}
+
+#masthead .nav-item .leftcap {
+    background: transparent url(https://raw.githubusercontent.com/flickPF94/bob_css_bitview/main/master-vfl42001.png) no-repeat scroll -152px 0
+}
+
+#smallMastheadLogo {
+    content: url(https://i.imgur.com/RpsPB5k.gif);
+    width: 104px;
+    height: 37px;
+    border: 0;
+}
+
+#masthead .logo {
+    content: url(https://raw.githubusercontent.com/flickPF94/bob_css_bitview/main/CvVcoKo.png);
+    float: left;
+    display: block;
+    margin: 1px 1px 6px 0;
+}
+
+.headerTitle {
+    font-size: 15px;
+    color: #fff;
+}
+
+.contentBox a:active,
+.contentBox a:link,
+.contentBox a:visited,
+#watch-channel-vids-div a:link,
+#watch-channel-vids-div a:visited,
+#watch-channel-vids-div a:active {
+    color: #ba22ff;
+}
+
+a:active,
+a:link,
+a:visited {
+    color: #2e1ea2;
+}
+
+#watch-embed-div,
+#watch-video-details-inner,
+#watch-url-div {
+    border-top: 1px solid #5e5e5e;
+}
+
+#watch-video-response {
+    background: linear-gradient(75deg, rgb(255, 231, 153), rgb(255, 210, 94));
+    border: 1px solid #ffb433;
+}
+
+.vlPlayer2009.tealBt .vlBuffer {
+    background-color: #a8b
+}
+
+.vlPlayer2009.tealBt .vlPosition {
+    background-color: #b3f
+}
+
+.vlPlayer2009.tealBt:not(.whiteBg) .vlBuffer {
+ background-color:#4c1466
+}
+.vlPlayer2009.tealBt .vlcPlay:hover > s > i,
+.vlPlayer2009.tealBt .vlcPlay.active > s > i {
+ background-position: -2px -201px;
+}
+.vlPlayer2009.tealBt.playing .vlcPlay:hover > s > i,
+.vlPlayer2009.tealBt.playing .vlcPlay.active > s > i {
+ background-position: -32px -201px;
+}
+.vlPlayer2009.tealBt .vlSeeker > i {
+ background-position: -67px -205px;
+}
+.vlPlayer2009.tealBt .vlcMute:hover > s > i,
+.vlPlayer2009.tealBt .vlcMute.active > s > i {
+ background-position: -92px -201px;
+}
+.vlPlayer2009.tealBt.muted .vlcMute > s > i {
+ background-position: -122px -201px;
+}
+.vlPlayer2009.tealBt .vlcFullScreen.hover > s > i,
+.vlPlayer2009.tealBt .vlcFullScreen.active > s > i {
+ background-position: -242px -201px;
+}
+.vlPlayer2009.tealBt.full .vlcFullScreen.hover > s > i,
+.vlPlayer2009.tealBt.full .vlcFullScreen.active > s > i {
+ background-position: -152px -201px;
+}
+.vlPlayer2009.tealBt .vlcExpand:hover > s > i,
+.vlPlayer2009.tealBt .vlcExpand.active > s > i {
+ background-position: -182px -201px;
+}
+.vlPlayer2009.tealBt.expanded .vlcExpand:hover > s > i,
+.vlPlayer2009.tealBt.expanded .vlcExpand.active > s > i {
+ background-position: -212px -201px;
+}
+.vlPlayer2009.tealBt .vlEndScreenBtn i {
+ background-position: -350px -350px;
+}
+.vlPlayer2009.tealBt .vlEndScreenRight .vlEndScreenBtn i {
+ background-position: -350px -400px;
+}
+
+#masthead form {
+    margin: 0px 0px 0px -40px;
+}
+
+.user-thumb-xlarge img {
+    height: 88px!important;
+    width: 88px!important;
+    margin-left: 0px;
+}
+.user-thumb-large img {
+    height: 60px!important;
+    width: 60px !important;
+    margin-left: 0px;
+}
+
+div[style="background-color: #dee0fd;padding: 10px;border-radius: 8px;margin-top: 10px;width: 540px;"] {
+    background: linear-gradient(75deg, rgb(50, 14, 62), rgb(108, 42, 128));
+    border: 1px solid #ccc;
+    color: #fff;
+    border-radius: 0px !important;
+}
+
+.homepage-yellow-block .homepage-block-heading {
+    color: #fff !important;
+}
+
+a[style="color:#CC6600"] {
+    color: #ba22ff !important;
+}
+
+.homepage-yellow-block {
+    background: linear-gradient(75deg, rgb(50, 14, 62), rgb(108, 42, 128));
+    border: 1px solid #ccc;
+    padding: 10px 15px 0 15px;
+    color: #fff;
+    margin-bottom: 0
+}
+.homepage-yellow-block-bot {
+    background: #fff;
+    width: 1px;
+    height: 11px
+}
+
+html > body .browseListView .vlentry {
+    background: linear-gradient(rgb(255, 255, 255), rgb(240, 240, 240));
+    border-bottom: 1px solid #ccc;
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    padding: 0px;
+    margin: 0px;
+}
+
+.vldesc {
+    font-size: 10px
+}
+.browseListView .vlfacets,
+.membersListView .vlfacets {
+    line-height: 24px;
+    width: 135px;
+}
+
+#hpFeatured {
+    border-top: 1px solid #ccc;
+}
+
+.browseListView .vlfacets,
+.membersListView .vlfacets {
+    width: auto;
+}
+}
+
+@-moz-document regexp(".*www.bitview.net/(?!profile).*") {
+/* BobView Background Box, Shouldn't display on profiles. */
+#baseDiv {
+    border: 1px solid #ccc;
+    padding-left: 35px;
+    padding-right: 35px;
+    background: linear-gradient(rgb(255, 255, 255), rgb(240, 240, 240));
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+body {
+    background-image: url(http://web-old.archive.org/web/20120514212820im_/http://s.ytimg.com/yt/imgbin/www-refreshbg-vflC3wnbM.png);
+}
+}
+
+@-moz-document regexp(".*www.bitview.net/") {
+/* BobView Broken Piece of Shit That Doesn't Fucking Work */
+#homepage-main-content tbody {
+    background: linear-gradient(75deg, rgb(50, 14, 62), rgb(108, 42, 128));
+    color: #ba22ff !important;
+}
+}
+
+@-moz-document regexp(".*www.bitview.net/whats_new.php"), regexp(".*www.bitview.net/terms.php"), regexp(".*www.bitview.net/privacy.php"), regexp(".*www.bitview.net/help.php"), regexp(".*www.bitview.net/viewing_history.php"), regexp(".*www.bitview.net/about.php"), regexp(".*www.bitview.net/my_.*"), regexp(".*www.bitview.net/watch.*") {
+/* BobView Background Box-inside-Background Box */
+#watch-this-vid,
+#watch-other-vids,
+.wrapper {
+    border: 1px solid #ccc;
+    padding: 4px;
+    background: linear-gradient(rgb(255, 255, 255), rgb(240, 240, 240));
+}
+}
+
+@-moz-document regexp(".*www.bitview.net/groups.*"), regexp("bitview.net/groups.*") {
+/* BobView Group Display Picture Fix */
+#browseMain .vimg120 {
+    width: 100px !important;
+    height: 100px !important;
+}
+
+.vEntry {
+    background: linear-gradient(rgb(255, 255, 255), rgb(242, 242, 242));
+    border: 1px solid #ccc;
+    padding: 0px 0;
+    border-bottom: 0px dotted #999;
+}
+
+.pagerNotCurrent {
+    font-size: 12px
+}
+}
+
+@-moz-document regexp(".*www.bitview.net/videos.php") {
+/* BobView Video Thumbnail "Fix" */
+.vimg120 {
+    width: 120px;
+    height: 83px;
+}
+}
+
+@-moz-document regexp(".*www.bitview.net/watch.*") {
+/* BobView Video Page Link "Fix" */
+.eLink {
+    border-bottom: 1px dotted #eef2ff;
+    color: #eef2ff;
+}
+}
