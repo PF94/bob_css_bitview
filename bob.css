@@ -134,9 +134,11 @@ a[style="color:#CC6600"] {
 }
 }
 
-@-moz-document regexp("(http(s)://)www.bitview.net/index.php") #homepage-main-content tbody {
+@-moz-document regexp("(http(s)://)www.bitview.net/") {
+#homepage-main-content tbody {
   background: linear-gradient(75deg, rgb(50, 14, 62), rgb(108, 42, 128));
   color: #ba22ff !important;
+}
 }
 
 @-moz-document regexp("(http(s)://)www.bitview.net/whats_new.php"), regexp("(http(s)://)www.bitview.net/terms.php"), regexp("(http(s)://)www.bitview.net/privacy.php"), regexp("(http(s)://)www.bitview.net/help.php"), regexp("(http(s)://)www.bitview.net/viewing_history.php"), regexp("(http(s)://)www.bitview.net/about.php") {
