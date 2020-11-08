@@ -106,42 +106,71 @@ a:visited {
 }
 
 div[style="background-color: #dee0fd;padding: 10px;border-radius: 8px;margin-top: 10px;width: 540px;"] {
-   background: linear-gradient(75deg, rgb(50, 14, 62), rgb(108, 42, 128));
-   border: 1px solid #ccc;
-   color: #fff;
-   border-radius: 0px !important;
+    background: linear-gradient(75deg, rgb(50, 14, 62), rgb(108, 42, 128));
+    border: 1px solid #ccc;
+    color: #fff;
+    border-radius: 0px !important;
 }
 
-.homepage-block-heading {
- color: #fff !important;
+.homepage-yellow-block .homepage-block-heading {
+    color: #fff !important;
 }
 
 a[style="color:#CC6600"] {
-  color: #ba22ff !important;
+    color: #ba22ff !important;
 }
 
 .homepage-yellow-block {
- background: linear-gradient(75deg, rgb(50, 14, 62), rgb(108, 42, 128));
- border: 1px solid #ccc;
- padding:10px 15px 0 15px;
- color: #fff;
- margin-bottom:0
+    background: linear-gradient(75deg, rgb(50, 14, 62), rgb(108, 42, 128));
+    border: 1px solid #ccc;
+    padding: 10px 15px 0 15px;
+    color: #fff;
+    margin-bottom: 0
 }
 .homepage-yellow-block-bot {
- background:#fff;
- width:1px;
- height:11px
+    background: #fff;
+    width: 1px;
+    height: 11px
+}
+
+html > body .browseListView .vlentry {
+    background: linear-gradient(rgb(255, 255, 255), rgb(240, 240, 240));
+    border-bottom: 1px solid #ccc;
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    padding: 0px;
+    margin: 0px;
+}
+
+.vldesc {
+    font-size: 10px
+}
+.browseListView .vlfacets,
+.membersListView .vlfacets {
+    line-height: 24px;
+    width: 135px;
+}
+
+#hpFeatured {
+    border-top: 1px solid #ccc;
+}
+
+.browseListView .vlfacets,
+.membersListView .vlfacets {
+    width: auto;
 }
 }
 
 @-moz-document regexp("(http(s)://)www.bitview.net/") {
 #homepage-main-content tbody {
-  background: linear-gradient(75deg, rgb(50, 14, 62), rgb(108, 42, 128));
-  color: #ba22ff !important;
+    background: linear-gradient(75deg, rgb(50, 14, 62), rgb(108, 42, 128));
+    color: #ba22ff !important;
 }
 }
 
-@-moz-document regexp("(http(s)://)www.bitview.net/whats_new.php"), regexp("(http(s)://)www.bitview.net/terms.php"), regexp("(http(s)://)www.bitview.net/privacy.php"), regexp("(http(s)://)www.bitview.net/help.php"), regexp("(http(s)://)www.bitview.net/viewing_history.php"), regexp("(http(s)://)www.bitview.net/about.php") {
+@-moz-document regexp("(http(s)://)www.bitview.net/whats_new.php"), regexp("(http(s)://)www.bitview.net/terms.php"), regexp("(http(s)://)www.bitview.net/privacy.php"), regexp("(http(s)://)www.bitview.net/help.php"), regexp("(http(s)://)www.bitview.net/viewing_history.php"), regexp("(http(s)://)www.bitview.net/about.php"), regexp("(http(s)://)www.bitview.net/my_.*"), regexp("(http(s)://)www.bitview.net/watch.*") {
+#watch-this-vid,
+#watch-other-vids,
 .wrapper {
     border: 1px solid #ccc;
     padding: 4px;
@@ -149,7 +178,7 @@ a[style="color:#CC6600"] {
 }
 }
 
-@-moz-document regexp("(http(s)://)www.bitview.net/groups.*") {
+@-moz-document regexp("(http(s)://)www.bitview.net/groups.*"), regexp("bitview.net/groups.*") {
 #browseMain .vimg120 {
     width: 100px !important;
     height: 100px !important;
