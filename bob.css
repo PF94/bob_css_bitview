@@ -166,8 +166,13 @@ html > body .browseListView .vlentry {
 /* BobView Background Box, Shouldn't display on profiles. */
 #baseDiv {
     border: 1px solid #ccc;
-    padding: 4px;
+    padding-left: 35px;
+    padding-right: 35px;
     background: linear-gradient(rgb(255, 255, 255), rgb(240, 240, 240));
+}
+
+body {
+    background: #f4f4f4;
 }
 }
 
