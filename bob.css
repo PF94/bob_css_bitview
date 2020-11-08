@@ -223,3 +223,11 @@ body {
     height: 83px;
 }
 }
+
+@-moz-document regexp("(http(s)://)www.bitview.net/watch.*") {
+/* BobView Video Page Link "Fix" */
+.eLink {
+    border-bottom: 1px dotted #eef2ff;
+    color: #eef2ff;
+}
+}
