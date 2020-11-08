@@ -14,7 +14,7 @@
 .contentBox,
 #watch-channel-vids-div {
     background: linear-gradient(75deg, rgb(50, 14, 62), rgb(108, 42, 128));
-    border: 1px solid #ccc;
+    border: 1px solid #3e3e3e;
     color: #fff
 }
 
@@ -46,7 +46,7 @@
 }
 
 #masthead .logo {
-    content: url(https://raw.githubusercontent.com/flickPF94/bob_css_bitview/main/CvVcoKo.png);
+    content: url(https://raw.githubusercontent.com/flickPF94/bob_css_bitview/main/darklogo.png);
     float: left;
     display: block;
     margin: 1px 1px 6px 0;
@@ -55,6 +55,15 @@
 .headerTitle {
     font-size: 15px;
     color: #fff;
+}
+
+#util-links .util-item a {
+    color: #a4c3fd;
+}
+
+.label, .largeLabel, .normalLabel, .smallLabel, .standardLabel, .xsmallLabel {
+    font-weight: 700;
+    color: #bdbdbd;
 }
 
 .contentBox a:active,
@@ -66,16 +75,20 @@
     color: #ba22ff;
 }
 
+h1, h2, h3, h4, h5, h6 {
+    color: #fff;
+}
+
 a:active,
 a:link,
 a:visited {
-    color: #2e1ea2;
+    color: #3178ff;
 }
 
 #watch-embed-div,
 #watch-video-details-inner,
 #watch-url-div {
-    border-top: 1px solid #5e5e5e;
+    border-top: 1px solid #3e3e3e;
 }
 
 #watch-video-response {
@@ -152,7 +165,7 @@ a:visited {
 
 div[style="background-color: #dee0fd;padding: 10px;border-radius: 8px;margin-top: 10px;width: 540px;"] {
     background: linear-gradient(75deg, rgb(50, 14, 62), rgb(108, 42, 128));
-    border: 1px solid #ccc;
+    border: 1px solid #3e3e3e;
     color: #fff;
     border-radius: 0px !important;
 }
@@ -161,30 +174,35 @@ div[style="background-color: #dee0fd;padding: 10px;border-radius: 8px;margin-top
     color: #fff !important;
 }
 
+.homepage-block-heading-gray {
+    color: #d0d0d0;
+}
+
 a[style="color:#CC6600"] {
     color: #ba22ff !important;
 }
 
 .homepage-yellow-block {
     background: linear-gradient(75deg, rgb(50, 14, 62), rgb(108, 42, 128));
-    border: 1px solid #ccc;
+    border: 1px solid #3e3e3e;
     padding: 10px 15px 0 15px;
     color: #fff;
     margin-bottom: 0
 }
 .homepage-yellow-block-bot {
-    background: #fff;
+    background: #fff0;
     width: 1px;
-    height: 11px
+    height: 1px
 }
 
 html > body .browseListView .vlentry {
-    background: linear-gradient(rgb(255, 255, 255), rgb(240, 240, 240));
-    border-bottom: 1px solid #ccc;
-    border-left: 1px solid #ccc;
-    border-right: 1px solid #ccc;
+    background: linear-gradient(rgb(66, 66, 66), rgb(23, 23, 23));
+    border-bottom: 1px solid #3e3e3e;
+    border-left: 1px solid #3e3e3e;
+    border-right: 1px solid #3e3e3e;
     padding: 0px;
     margin: 0px;
+    margin-top: 0px;
 }
 
 .vldesc {
@@ -194,10 +212,28 @@ html > body .browseListView .vlentry {
 .membersListView .vlfacets {
     line-height: 24px;
     width: 135px;
+    border-left:1px solid #3e3e3e;
+}
+
+#homepage-featured-heading {
+    padding: 2px 0 0 0;
+    margin-left: 20px;
+    border-bottom: none;
 }
 
 #hpFeatured {
-    border-top: 1px solid #ccc;
+    border-top: 1px solid #3e3e3e;
+}
+
+.footer {
+    font-size: 11px;
+    color: #ececec;
+}
+
+.runtime, .vruntime {
+    color: #fff;
+    font-weight: 700;
+    font-size: 11px;
 }
 
 .browseListView .vlfacets,
@@ -209,16 +245,21 @@ html > body .browseListView .vlentry {
 @-moz-document regexp(".*www.bitview.net/(?!profile).*") {
 /* BobView Background Box, Shouldn't display on profiles. */
 #baseDiv {
-    border: 1px solid #ccc;
+    border: 1px solid #3e3e3e;
     padding-left: 35px;
     padding-right: 35px;
-    background: linear-gradient(rgb(255, 255, 255), rgb(240, 240, 240));
+    background: linear-gradient(rgb(66, 66, 66), rgb(0, 0, 0));
     margin-top: 15px;
     margin-bottom: 15px;
 }
 
 body {
-    background-image: url(http://web-old.archive.org/web/20120514212820im_/http://s.ytimg.com/yt/imgbin/www-refreshbg-vflC3wnbM.png);
+    background-image: url(https://raw.githubusercontent.com/flickPF94/bob_css_bitview/main/darknoise.png);
+    color: #fff;
+}
+
+#masthead {
+ background-color:#fff0;
 }
 }
 
@@ -235,9 +276,9 @@ body {
 #watch-this-vid,
 #watch-other-vids,
 .wrapper {
-    border: 1px solid #ccc;
+    border: 1px solid #3e3e3e;
     padding: 4px;
-    background: linear-gradient(rgb(255, 255, 255), rgb(240, 240, 240));
+    background: linear-gradient(rgb(53, 53, 53), rgb(0, 0, 0));
 }
 }
 
