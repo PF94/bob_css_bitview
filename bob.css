@@ -169,6 +169,8 @@ html > body .browseListView .vlentry {
     padding-left: 35px;
     padding-right: 35px;
     background: linear-gradient(rgb(255, 255, 255), rgb(240, 240, 240));
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
 
 body {
